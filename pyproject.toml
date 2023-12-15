@@ -1,6 +1,6 @@
 [project]
 name = "FineEx.Cloud.Middle.Message"
-version = "1.0.0"
+version = "1.0.1"
 authors = [
   { name="liuchunyang", email="liuchunyang@fineex.com" },
 ]
@@ -14,7 +14,7 @@ classifiers = [
 ]
 
 dependencies = [
-    'requsets',
+    'requests',
     'aliyun-python-sdk-core',
     'aliyun-python-sdk-dysmsapi',
     'mailutils'
